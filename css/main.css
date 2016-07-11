@@ -1,0 +1,44 @@
+#gradient {
+				/* fallback color */
+				background-color: #66cccc; 
+				/* fallback image */
+				background-image: url("images/fallback-image.png"); 
+				/* Firefox 3.6+ */
+				background-image: -moz-linear-gradient(#66cccc, #336666);
+				/* Safari 4+, Chrome 1+ */
+				background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#66cccc), to(#336666));
+				/* Safari 5.1+, Chrome 10+ */
+				background-image: -webkit-linear-gradient(#66cccc, #336666);; 
+				/* Opera 11.10+ */
+				background-image: -o-linear-gradient(#66cccc, #336666);;
+   				height: 200%;
+				width: 100%;
+}				
+
+h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+li {
+  list-style-type: none;
+  text-align: left;
+  font-size: 20px;
+}
+.btn {
+  font-size: 100%;
+  color: white;
+  background-color: black!important;
+  font-family: sans-serif;
+  font-weight: bolder;
+  border-radius: 10%;
+  border: 1px solid gray;
+  margin-top: 2%;
+  background-color: white;
+  width: 20%;
+  height: 45px;
+}
